@@ -124,7 +124,8 @@ int main()
         }
         while (continuar)
         {
-            cout << "Voce quer continuar[s/n]: " << endl;
+            cout<<endl<<"A palavra chave era: "<<word<<endl;
+            cout<<endl<<"Voce quer continuar[s/n]: " << endl;
             cin >> resp;
             if (resp == "sim" || resp == "Sim" || resp == "s" || resp == "S")
             {
